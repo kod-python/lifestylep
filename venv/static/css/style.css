@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 2s linear;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: azure;
+
+}
+
+
+/* universal  */
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+/* header section starts here */
+
+#hero nav ul{
+    display: flex;
+    justify-content: center;
+  
+   
+    
+}
+
+#hero .vl{
+    border: 1px solid rgb(182, 161, 161);
+    height: 30px;
+}
+
+#hero h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(182, 161, 161); 
+   
+    
+}
+
+
+
+#hero h2{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(182, 161, 161); 
+    font-style: oblique;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+
+#hero img{
+   width: 23px;
+}
+
+#hero .fa-search{
+    font-size: 1.4rem;
+}
+
+#hero .mytopimi{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+
+
+
+#hero nav ul li{
+    list-style-type: none;
+}
+
+#hero nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 1.3rem;
+   
+}
+
+#hero .headimi{
+    background-image: url(./images/backimi.jpg);
+}
+
+
+/* header section ends */
+
+
+/* head image starts here */
+/* #backimi {
+    background-image: url(./images/Vacation-Nails-@chia_habte-intro-image-2.jpg);
+   
+    background-size: cover;
+    
+    height: 500px;
+} */
+/* head image  ends here */
+
+
+
+/* About starts here */
+
+#about .about-all{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+   
+}
+
+#about .pred{
+    color: crimson;
+}
+
+/* first about starts here */
+
+#about .even{
+    margin-left: 30px;
+}
+
+
+#about .arrow{
+ margin-right: 60px;
+}
+
+#about .imi-link{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+#about .imi-link a{
+    margin-left: 260px;
+}
+
+#about hr{
+    width: 600px;
+}
+
+
+#about .fimi{
+    height: 600px;
+    width: 600px;
+}
+
+#about .fimi1{
+    width:300px;
+    height: 300px;
+    
+}
+
+#about .fimi2{
+    width: 300px;
+    height: 300px;
+}
+
+#about .fimi3{
+    width: 300px;
+    height: 300px;
+}
+
+#about .about-imi img{
+    width: 20px;
+    
+}
+
+
+#about .travel-explore1{
+   display: flex;
+   
+}
+#about .travel-explore{
+    margin: 20px;
+}
+
+#about .go-learn1{
+  display: flex;
+}
+
+#about .go-learn{
+    margin: 20px;
+}
+
+
+#about .travel-spend1{
+   display: flex;
+}
+
+#about .travel-spend{
+    margin: 20px;
+}
+
+#about .first-about input{
+    border: none;
+}
+
+#about .first-about .link-img{
+    margin-left: 260px;
+}
+/* first about ends here */
+
+/* second about starts here */
+#about .second-about{
+    margin-top: 60px;
+}
+
+#about .vl{
+    border: 1px solid rgb(189, 169, 169);
+    height: 25px;
+    margin-left: -35px;
+}
+
+#about .fa-search{
+    margin-left: -30px;
+    width: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#about .upbord{
+   display: flex;
+   
+   align-items: center;
+}
+
+#about .second-about .input1{
+    width:800px;
+    
+}
+
+
+
+#about .second-about .about-author{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.2rem;
+    
+}
+
+#about .second-about .author-imi{
+    width: 60px;
+}
+
+
+#about .second-about .downimi{
+    width:15px;
+    margin: 10px;
+}
+
+#about .second-about .about-recent{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+#about .second-about .about-category{
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.2rem;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+}
+
+#about .second-about .cate{
+    text-align: center;
+}
+
+#about .second-about .about-category span{
+
+margin-left: 200px;
+color: crimson;
+ 
+}
+
+
+#about .second-about .tag{
+    justify-content: center;
+    text-align: justify;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 25px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 0.2rem; 
+     
+    
+}
+
+
+#about .lifelife{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5vh;
+}
+
+
+#about .second-about .tata{
+    text-align: center;
+}
+
+#about .second-about button{
+    padding: 10px 4px;
+    margin: 2px 0
+  
+
+}
+
+#about .second-about input[type="search"]{
+    width: 90%;
+    padding: 3%;
+    font-size: 1.2rem;
+  
+}
+/* second about ends here */
+
+/* about section ends here */
+
+/* footer starts here */
+footer{
+background-color: #323232;
+color: white;
+border-radius: 0.2rem;
+margin-top: 120px;
+}
+
+footer .footer-top{
+display: flex;
+text-align: justify;
+justify-content: center;
+margin: 10px;
+margin-left: 180px;
+
+}
+
+footer h2{
+  
+}
+
+footer .kaka{
+    display: flex;
+}
+
+footer .kaka{
+    justify-content: space-between;
+}
+
+footer hr{
+    width: 240px;
+}
+
+footer .kod{
+    margin-left: -140px ;
+}
+
+footer .recent{
+    margin-left:47px;
+}
+
+footer .category{
+    margin-left:38px ;
+}
+
+footer .contact{
+    margin-left: 58px;
+}
+
+footer img{
+    width: 30px;
+}
+
+
+footer .copy-right{
+   font-style: oblique;
+ margin-left: -600px;
+}
+
+
+footer .copy-right span{
+    color: crimson;
+}
+
+
+footer .footer-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: -300px;
+  margin-top: 60px;
+}
+
+/* footer ends here */
